@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pārtikas veikals</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500" rel="index.css">
+        <link rel="stylesheet" href="flexboxgrid.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+    </head> 
+    <body>
+        <div class="auth">
+            <form class="js-form">
+                <label for="username">Lietotājvārds:</label>
+                <input type="text" name="username" id="js-form-username">
+                <br>
+                <br>
+                <label for="password">Parole:</label>
+                <input type="password" name="password" id="js-form-password">
+                <br>
+                <br>
+                <a href="index.html"><button type="submit">Pierakstīties</button></a>
+            </form>
+        </div>
+            <button type="submit" id="log-out-user">Izrakstīties</button>
+        </div>
+        <div class="part2">
+            <div class="main">  
+                <h2>Produktu pārskatīšanas nedēļa, 2022. gada 20. nedēļa:</h2>
+                <div class="slider">
+                    <span class="slider__prev"> &lt; </span>
+                    <span class="slider__next"> &gt; </span>
+                    <table>
+                        <tr>
+                            <th>Datums</th>
+                            <th>Atveda</th>
+                            <th>Pārdots</th>
+                            <th>Likvidēts</th>
+                            <th>Nepieciešams veikt pasūtījumu</th>
+                            <th>Nav pieejams</th>
+                            <th>Komentāri</th>
+                        </tr>
+                        <tr>
+                            <td class="date">23.05.2022</td>
+                            <td class="brings"><input type="text" name="brings"></td>
+                            <td class="sold"><input type="text" name="sold"></td>
+                            <td class="terminated"><input type="text" name="terminated"></td>
+                            <td class="need"><input type="text" name="need"></td>
+                            <td class="not_available"><input type="text" name="not_available"></td>
+                            <td class="comments"><input type="text" name="comments"></td>
+                        </tr>
+                        <tr>
+                            <td class="date">24.05.2022</td>
+                            <td class="brings"><input type="text" name="brings"></td>
+                            <td class="sold"><input type="text" name="sold"></td>
+                            <td class="terminated"><input type="text" name="terminated"></td>
+                            <td class="need"><input type="text" name="need"></td>
+                            <td class="not_available"><input type="text" name="not_available"></td>
+                            <td class="comments"><input type="text" name="comments"></td>
+                        </tr>
+                        <tr>
+                            <td class="date">25.05.2022</td>
+                            <td class="brings"><input type="text" name="brings"></td>
+                            <td class="sold"><input type="text" name="sold"></td>
+                            <td class="terminated"><input type="text" name="terminated"></td>
+                            <td class="need"><input type="text" name="need"></td>
+                            <td class="not_available"><input type="text" name="not_available"></td>
+                            <td class="comments"><input type="text" name="comments"></td>
+                        </tr>
+                        <tr>
+                            <td class="date">26.05.2022</td>
+                            <td class="brings"><input type="text" name="brings"></td>
+                            <td class="sold"><input type="text" name="sold"></td>
+                            <td class="terminated"><input type="text" name="terminated"></td>
+                            <td class="need"><input type="text" name="need"></td>
+                            <td class="not_available"><input type="text" name="not_available"></td>
+                            <td class="comments"><input type="text" name="comments"></td>
+                        </tr>
+                        <tr>
+                            <td class="date">27.05.2022</td>
+                            <td class="brings"><input type="text" name="brings"></td>
+                            <td class="sold"><input type="text" name="sold"></td>
+                            <td class="terminated"><input type="text" name="terminated"></td>
+                            <td class="need"><input type="text" name="need"></td>
+                            <td class="not_available"><input type="text" name="not_available"></td>
+                            <td class="comments"><input type="text" name="comments"></td>
+                        </tr>
+                        <tr>
+                            <td class="date">28.05.2022</td>
+                            <td class="brings"><input type="text" name="brings"></td>
+                            <td class="sold"><input type="text" name="sold"></td>
+                            <td class="terminated"><input type="text" name="terminated"></td>
+                            <td class="need"><input type="text" name="need"></td>
+                            <td class="not_available"><input type="text" name="not_available"></td>
+                            <td class="comments"><input type="text" name="comments"></td>
+                        </tr>
+                        <tr>
+                            <td class="date">29.05.2022</td>
+                            <td class="brings"><input type="text" name="brings"></td>
+                            <td class="sold"><input type="text" name="sold"></td>
+                            <td class="terminated"><input type="text" name="terminated"></td>
+                            <td class="need"><input type="text" name="need"></td>
+                            <td class="not_available"><input type="text" name="not_available"></td>
+                            <td class="comments"><input type="text" name="comments"></td>
+                        </tr>
+                    </table>
+                </div>
+                
+
+                <div class="legend">
+                <p class="title">Veikalu izpārdošana nedēļas periodā:</p>    
+                <ul class="caption-list">
+                    <li class="caption-item">augļi</li>
+                    <li class="caption-item">konservi</li>
+                    <li class="caption-item">saldumi</li>
+                    <li class="caption-item">konditorejas izstrādājumi</li>
+                    <li class="caption-item">graudaugi</li>
+                    <li class="caption-item">dzērieni</li>
+                    <li class="caption-item">dārzeņi</li>
+                </ul>
+                </div>
+                
+                <svg class="chart" width="500" height="500" viewBox="0 0 50 50">
+                <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+                <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+                <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+                <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+                <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+                <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+                <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+                </svg>
+
+                <button id="save-data" title="Saglabāt datus">Saglabāt datus</button>
+
+            </div>
+        </div>
+          </body>
+    <script src="script.js"></script>
+</html>
